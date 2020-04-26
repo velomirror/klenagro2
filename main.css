@@ -295,30 +295,6 @@ div.wpcf7 .ajax-loader {
   border: 2px solid #eb4141;
 }
 
-.navbarz {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  background: url(navbar-background.png) center center no-repeat;
-  background-size: 15% 10%;
-  padding: .75rem 1.5rem; }
-  .navbar > .container,
-  .navbar > .container-fluid {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: justify;
-        justify-content: space-between; }
-
 /* header */
 .header{
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
