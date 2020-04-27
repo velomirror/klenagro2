@@ -3198,7 +3198,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
       justify-content: space-between;
   background: url(navbar-background-3d.png) center center no-repeat;
-  background-size: 65% 100%;
+  background-size: auto auto;
   padding: .75rem 1.5rem; }
   .navbar > .container,
   .navbar > .container-fluid {

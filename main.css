@@ -302,16 +302,17 @@ div.wpcf7 .ajax-loader {
   position: relative;
   z-index: 11;
   background: url(header-background-3d.png) center center no-repeat;
-  background-size: 65% 120%;
-  padding-bottom: 30px;
+  background-size: auto auto;
+  padding-bottom: 50px;
 }
 .header-language{
   margin-right: 0px;
+  padding-top: 70px;
 
 }
 .header-inner{
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+  align-items: stretch;
   height: 80px;
   position: relative;
 }
@@ -345,11 +346,11 @@ div.wpcf7 .ajax-loader {
 }
 .header-buttons{
   margin-top: 30px;
-  padding-top: 30px;
+  padding-top: 25px;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  margin-left: auto;
-  padding-left: auto;
+  margin-left: 0px;
+  padding-left: 0px;
   position: relative;
 }
 .header-info:before{
@@ -364,17 +365,17 @@ div.wpcf7 .ajax-loader {
 .header-info-phone{
   color: #121f47;
   font-family: Verdana;
-  font-size: 22px;
+  font-size: 1.1vw;
   font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 5px;
-  display: block;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  display: flex;
   text-decoration: none;
 }
 .header-info-name{
   color: #b05020;
   font-family: Liberation Sans;
-  font-size: 16px;
+  font-size: 1.1vw;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-flex;
@@ -385,7 +386,7 @@ div.wpcf7 .ajax-loader {
   color: black;
   font-style: italic;
   font-family: Arial;
-  font-size: 14px;
+  font-size: .7vw;
   font-weight: bold;
   display: inline-flex;
   text-decoration: none;
@@ -394,11 +395,11 @@ div.wpcf7 .ajax-loader {
 .header-info-under-phone{
   color: black;
   font-family: Arial;
-  font-size: 14px;  
+  font-size: .7vw;  
   font-weight: bold;
   display: inline-flex;
   text-decoration: none;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 .header-info-phone:hover{
   text-decoration: underline;
