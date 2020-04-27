@@ -297,18 +297,19 @@ div.wpcf7 .ajax-loader {
 
 /* header */
 .header{
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);*/
   /* background-color: #ffffff; */
   position: relative;
   z-index: 11;
   background: url(header-background-3d.png) center center no-repeat;
   background-size: auto auto;
-  padding-bottom: 50px;
+  padding-bottom: 5.2vw;
+  padding-top: 1.5vw;
 }
 .header-language{
   margin-right: 0px;
   margin-top: 3.2vw;
-  max-width: 2%;
+  max-width: 3%;
   height: auto;
   display: flex;
 
@@ -355,7 +356,7 @@ div.wpcf7 .ajax-loader {
   margin-left: 0px;
   padding-left: 0px;
   position: relative;
-  max-width: 10%;
+  max-width: 15%;
   max-height: auto;
 }
 .header-info:before{
@@ -393,7 +394,7 @@ div.wpcf7 .ajax-loader {
   color: black;
   font-style: italic;
   font-family: Arial;
-  font-size: .7vw;
+  font-size: 1vw;
   font-weight: bold;
   display: inline-flex;
   text-decoration: none;
@@ -402,7 +403,7 @@ div.wpcf7 .ajax-loader {
 .header-info-under-phone{
   color: black;
   font-family: Arial;
-  font-size: .7vw;  
+  font-size: 1vw;  
   font-weight: bold;
   display: inline-flex;
   text-decoration: none;
