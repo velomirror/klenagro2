@@ -304,11 +304,11 @@ div.wpcf7 .ajax-loader {
   background: url(header-background-3d.png) center center no-repeat;
   background-size: auto auto;
   padding-bottom: 5.2vw;
-  padding-top: 1.5vw;
+  padding-top: 0vw;
 }
 .header-language{
   margin-right: 0px;
-  margin-top: 3.2vw;
+  margin-top: 5.5vw;
   max-width: 3%;
   height: auto;
   display: flex;
@@ -349,10 +349,8 @@ div.wpcf7 .ajax-loader {
   position: relative;
 }
 .header-buttons{
-  margin-top: 2vw;
-  padding-top: 0px;
+  margin-top: 3.5vw;
   margin-bottom: 2vw;
-  padding-bottom: 30px;
   margin-left: 0px;
   padding-left: 0px;
   position: relative;
@@ -373,8 +371,8 @@ div.wpcf7 .ajax-loader {
   font-family: Verdana;
   font-size: 1.1vw;
   font-weight: bold;
-  margin-top: .5vw;
-  margin-bottom: 1vw;
+  margin-top: 2.5vw;
+  margin-bottom: .5vw;
   display: flex;
   text-decoration: none;
 }
@@ -386,7 +384,7 @@ div.wpcf7 .ajax-loader {
   margin-bottom: 1.1vw;
   display: inline-flex;
   text-decoration: none;
-  margin-top: .5vw;
+  margin-top: 2.5vw;
   max-width: 100%;
   max-height: 100%;
 }
