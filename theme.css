@@ -3108,7 +3108,10 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;}
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
@@ -3194,7 +3197,7 @@ input[type="button"].btn-block {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  background: url(navbar-background.png) center center no-repeat;
+  background: url(navbar-background-3d.png) center center no-repeat;
   background-size: 65% 100%;
   padding: .75rem 1.5rem; }
   .navbar > .container,

@@ -301,8 +301,8 @@ div.wpcf7 .ajax-loader {
   /* background-color: #ffffff; */
   position: relative;
   z-index: 11;
-  background: url(header-background.png) center center no-repeat;
-  background-size: 65% 100%;
+  background: url(header-background-3d.png) center center no-repeat;
+  background-size: 65% 120%;
   padding-bottom: 30px;
 }
 .header-language{
@@ -1009,10 +1009,17 @@ a.front-contacts-item-skype{
   padding-bottom: 85px;
   background-color: #181818;
   min-height: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 .footer-items{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 .footer-item:nth-child(2){
   max-width: 600px;
@@ -1027,6 +1034,10 @@ a.front-contacts-item-skype{
 }
 .footer-item ul li{
   margin-bottom: 23px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 .footer-item ul li:last-of-type{
   margin-bottom: 0;
